@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    background: #ddd;
+}
+
+.header-itm1{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 30px;
+}
+
+.header-itm{
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 60px;
+    color: #777;
+}
+
+.header-itm.active{
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}

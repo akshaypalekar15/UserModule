@@ -1,0 +1,70 @@
+.task-item{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+}
+
+.tasks-container{
+    padding: 220px;
+    padding-top: 10px;
+    padding-bottom: 0px; 
+}
+
+.task-delete-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #d24747;
+    color: #fff;
+}
+
+.task-add-div{
+    position: fixed;
+    top: 90%;
+    left: 5%;
+}
+.task-add-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #01345e;
+    color: #fff;
+}
+
+.modal{
+    position: fixed;
+    top: 40%;
+    left: 34%;
+    height: 200px;
+    background: #ddd;
+    width: 500px;
+    z-index: 999999;
+}
+
+.modal-btn-grp{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-btn-grp input{
+    margin: 0 75px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    background: #01345e;
+    height: 35px;
+}
+
+.modal-txt-input{
+    height: 30px;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    width: 91%;
+    border: none;
+    padding: 10px;
+}

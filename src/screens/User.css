@@ -1,0 +1,21 @@
+.user-container{
+    padding: 20px;
+    position: absolute;
+    left: 25%;
+    width: 40%;
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+.btn-grp{
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #adadad;
+}
